@@ -7,7 +7,7 @@ const session = require('express-session');
 var cookieParser = require('cookie-parser');
 
 const sessionOpts = {
-  secret: process.env.SESSION_SECRET,
+  secret: 'smm_password',
   resave: false,
   saveUninitialized: true
 };
